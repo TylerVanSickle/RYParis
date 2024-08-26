@@ -1,0 +1,123 @@
+:root{
+    --orange: #f1a536;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #f1a536;
+    height: 10vh;
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    padding-left: 50px;
+    list-style-type: none;
+    font-size: 1.1rem;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.underHeader{
+    background-image: url(/images/hero-image.jpg);
+    width: 100%;
+    height: 74vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 5%;
+    position: relative;
+}
+.heroText{
+    background-color: white;
+    width: 775px;
+    font-size: 2.15rem;
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    left: 500px;
+    padding: 5px;
+}
+.everydayCategories{
+    background-color: white;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+.everydayContentContainer{
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+}
+.everydayHeader{
+    font-size: 1.8rem;
+}
+.everydayP{
+    font-size: 1.3rem;
+}
+.everydayImages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    gap: 50px;
+}
+.everydayImages p{
+    padding-top: 15px;
+    text-align: center;
+}
+.everydayImage{
+    width: 33%;
+}
+.healthyOfTheWeek{
+    background-color: #dadfea;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+.healthyOfTheWeekContainer{
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+}
+.healthyHeader{
+    font-size: 1.8rem;
+}
+.healthyP{
+    font-size: 1.3rem;
+}
+.healthyImages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    width: 100%;
+    gap: 20px;
+}
+.healthyImages p{
+    padding-top: 15px;
+    text-align: center;
+    margin-top: -10px;
+    padding: 15px;
+    background-color: white;
+}
+.healthImage{
+    width: 33%;
+}
