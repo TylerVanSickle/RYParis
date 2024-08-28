@@ -172,31 +172,6 @@ nav ul li a{
 }
 
 
-/*FOOTER*/
-
-footer{
-    height: 10vh;
-    background-color: var(--orange);
-    width: 100%;
-}
-.footerContainer{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    height: 10vh;
-    background-color: var(--orange);
-    width: 90%;
-    align-items: center;
-    margin: 0 auto;
-}
-footer ul{
-    display: flex;
-}
-footer ul li{
-    padding-left: 25px;
-    list-style-type: none;
-    cursor: pointer;
-}
 
 /* RECIPE PAGE */
 
@@ -317,4 +292,63 @@ height: 28%;
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
+}
+
+.howToMake{
+    padding-top: 100px;
+    height: 110vh;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.leftSide{
+    flex: 33%;
+    height: 100%;
+}
+.leftSide li{
+    margin-left: 1em;
+}
+.leftSide ul p{
+    padding-left: 20px;
+}
+.howToMake h2{
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.rightSide{
+    flex: 66%;
+    height: 100%;
+}
+.rightSide li{
+    padding-bottom: 35px;
+    margin-left: 1em;
+}
+.rightSide ol p {
+    padding-left: 15px;
+}
+/*FOOTER*/
+
+footer{
+    height: 10vh;
+    background-color: var(--orange);
+    width: 100%;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 10vh;
+    background-color: var(--orange);
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    padding-left: 25px;
+    list-style-type: none;
+    cursor: pointer;
 }
