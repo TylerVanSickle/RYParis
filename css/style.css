@@ -9,7 +9,7 @@
 }
 header{
     width: 100%;
-    background-color: #f1a536;
+    background-color: var(--orange);
     height: 10vh;
 }
 nav{
